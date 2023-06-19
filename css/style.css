@@ -1,0 +1,66 @@
+body {
+     font-family:Arial, Sans-Serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 50%;
+     background-image: url('https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=996&t=st=1687123810~exp=1687124410~hmac=abb234c840a156e0e0dedcc9ab6d961788281feafaf182688baafe010d434597');
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+} 
+
+.form{
+     width: 200px;
+     margin: 0 auto;
+    
+    
+} 
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color:   #00a950;
+     text-shadow: rgba(231,208,58,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(231,208,58,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid  #00a950; 
+     border-radius: 2px;
+     margin-top: 50px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: f0df74;
+}
+
+.form h1{
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+}
